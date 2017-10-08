@@ -3,7 +3,7 @@ layout: post
 title: Jekyll, Lanyon and Github Pages.
 ---
 
-Finally got this website up and runnig thanks to Jekyll, Lanyon and Github Pages. They have all been a while for a couple of years, but I have missed them.
+Finally got this website up and runnig thanks to Jekyll, Lanyon and Github Pages. They have all been around for a couple of years, but I have missed them.
 
 [Jekyll](http://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. 
 
