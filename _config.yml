@@ -11,6 +11,6 @@ github_username:  perwramdemark
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
+theme: jekyll-theme-modernist
 plugins:
   - jekyll-feed
