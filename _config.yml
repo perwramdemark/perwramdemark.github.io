@@ -1,16 +1,22 @@
-title: Per Wramdemark
-email: per@wramdemark.se
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: perw
-github_username:  perwramdemark
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
 
-# Build settings
-markdown: kramdown
-theme: jekyll-theme-slate
-plugins:
-  - jekyll-feed
+# Setup
+title:               Per Wramdemark
+tagline:             'Curious and passionate Java developer'
+description:         'A build stuff. With code and people!'
+url:                 http://www.wramdemark.se
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Per Wramdemark
+  url:               https://twitter.com/perwramdemark
+  email:             per@wramdemark.se
+
+# Custom vars
+version:             1.0.0
