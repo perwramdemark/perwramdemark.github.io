@@ -11,6 +11,6 @@ github_username:  perwramdemark
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-tactile
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
