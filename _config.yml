@@ -9,7 +9,7 @@ title:               Per Wramdemark
 tagline:             'Curious and passionate Java developer'
 description:         'A build stuff. With code and people!'
 url:                 http://www.wramdemark.se
-baseurl:             ''
+baseurl:             'https://perwramdemark.github.io'
 paginate:            5
 
 # About/contact
