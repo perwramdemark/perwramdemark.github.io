@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jekyll, Lanyon and Github Pages.
+tags: jekyll blog
 ---
 
 Finally got this website up and runnig thanks to Jekyll, Lanyon and Github Pages. They have all been around for a couple of years, but I have missed them.

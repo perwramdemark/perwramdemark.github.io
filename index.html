@@ -15,6 +15,17 @@ title: Home
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
     {{ post.content }}
+
+    <ul class="share-buttons">
+    <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | uri_escape }}{{ page.url | uri_escape  }}&quote={{ post.title | uri_escape }}" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="/assets/img/Facebook.png" /></a></li>
+    <li><a href="https://twitter.com/intent/tweet?text={{ post.title | uri_escape }}&url={{ site.url | uri_escape }}{{ page.url | uri_escape  }}&via=perw&hashtags={{ post.tags | join:',' }}" target="_blank" title="Tweet"><img alt="Tweet" src="/assets/img/Twitter.png" /></a></li>
+    <li><a href="https://plus.google.com/share?url={{ site.url | uri_escape }}{{ page.url | uri_escape  }}" target="_blank" title="Share on Google+"><img alt="Share on Google+" src="/assets/img/Google+.png" /></a></li>
+    <li><a href="http://www.reddit.com/submit?url={{ site.url | uri_escape }}{{ page.url | uri_escape  }}&title={{ post.title | uri_escape }}" target="_blank" title="Submit to Reddit"><img alt="Submit to Reddit" src="/assets/img/Reddit.png" /></a></li>
+    <!--
+    <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fwww.wramdemark.se&title=&summary=&source=http%3A%2F%2Fwww.wramdemark.se" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent('{{ site.url }}{{ page.url }}') + '&title=' +  encodeURIComponent('{{ post.title }}')); return false;"><img alt="Share on LinkedIn" src="/assets/img/LinkedIn.png" /></a></li>
+    <li><a href="mailto:?subject=&body=:%20http%3A%2F%2Fwww.wramdemark.se" target="_blank" title="Send email" onclick="window.open('mailto:?subject=' + encodeURIComponent('{{ post.title }}') + '&body=' +  encodeURIComponent('{{ site.url }}{{ page.url }}')); return false;"><img alt="Send email" src="/assets/img/Email.png" /></a></li>
+    -->
+    </ul> 
   </div>
   {% endfor %}
 </div>
