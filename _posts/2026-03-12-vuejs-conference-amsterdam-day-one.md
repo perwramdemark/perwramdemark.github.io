@@ -2,6 +2,7 @@
 layout: post
 title: "Vuejs.amsterdam 2026: Key Takeaways from day One"
 date: 2026-03-12
+image: /assets/images/2026-03-12-vuejsamsterdam-welcome.jpeg
 tags: [vue, ai, javascript, conference]
 ---
 
