@@ -1,23 +1,46 @@
-ul.share-buttons{
+ul.share-buttons {
   list-style: none;
   padding: 0;
+  display: flex;
+  gap: 15px;
 }
 
-ul.share-buttons li{
-  display: inline;
+ul.share-buttons i {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px; /* Centers the icon vertically */
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  transition: opacity 0.2s;
 }
 
-ul.share-buttons img{
-  display: inline;
+/* Brand Colors */
+.fa-bluesky { background-color: #0085ff; }
+.fa-linkedin { background-color: #0077b5; }
+.fa-x-twitter { background-color: #000000; }
+.fa-reddit-alien { background-color: #ff4500; }
+.fa-facebook-f { background-color: #1877f2; }
+
+/* Hover Effect */
+.share-buttons a:hover i {
+  transform: scale(1.1);
 }
 
-ul.share-buttons .sr-only{
-  position: absolute;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0;
-  border: 0;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
+.mt-4 { margin-top: 24px !important; }
+.mt-6 { margin-top: 40px !important; }
+
+.share-buttons.monochrome i {
+  background-color: transparent !important; /* Removes the circle background */
+  color: #000000 !important;            /* Makes the icon logo black */
+  width: auto;                           /* Resets width so it's not a fixed 40px square */
+  height: auto;                          /* Resets height */
+  line-height: normal;                   /* Resets vertical centering math */
+  font-size: 36px;                       /* Optional: Make them slightly larger since there's no circle */
+}
+
+.share-buttons.monochrome a:hover i {
+  opacity: 0.7;                          /* Fades slightly on hover instead of scaling */
+  transform: scale(1.1);
 }

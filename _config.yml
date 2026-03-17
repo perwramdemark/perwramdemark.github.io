@@ -11,6 +11,7 @@ description:         'I build stuff. With code and people!'
 url:                 https://www.wramdemark.se
 baseurl:             ''
 paginate:            5
+font_awesome_url:    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css
 
 # About/contact
 author:
