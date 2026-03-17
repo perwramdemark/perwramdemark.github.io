@@ -1,12 +1,12 @@
 ---
 layout: post
 title: HTTPS on GitHub Pages over custom domains
-tags: github ssl https
+tags: github pages ssl https
 ---
 
-Noticed that GitHub Pages gained support for [HTTPS over customer domains](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/). Actually quite a few months ago. 
+Noticed that GitHub Pages gained support for [HTTPS over customer domains](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/). Actually quite a few months ago.
 
-Adding HTTPS was a breeze. I just needed to update my DNS editor with four new IP address found [here](https://help.github.com/articles/troubleshooting-custom-domains/#dns-configuration-errors). 
+Adding HTTPS was a breeze. I just needed to update my DNS editor with four new IP address found [here](https://help.github.com/articles/troubleshooting-custom-domains/#dns-configuration-errors).
 
 Wait five minutes for your newly configured DNS settings to spread around the Internet. Then reconfirm the DNS configuration with below command in the terminal window.
 
