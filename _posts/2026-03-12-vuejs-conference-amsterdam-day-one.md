@@ -39,7 +39,7 @@ Showed how to build an [MCP Sever](https://modelcontextprotocol.io/) for Vue usi
 * [Rijk van Zanten](https://rijk.nyc/) Dutch in Brooklyn, NYC.<br/>
 Talked about Agentic AI and building a Todo App where the AI agent interacts directly with **Pinia**, either showing the UI or communicating directly with the backend.
 
-* [Jeroen de Kruijf](https://jeroen.is/) Identity Specialist working for auth0.<br/>
+* [Jeroen de Kruijf](https://www.linkedin.com/in/jeroen-de-kruijf-9a066310b/) Identity Specialist working for auth0.<br/>
 talked about  **HITL (Human in the Loop)** framework for Trustworthy AI.
 
 * [Pooya Parsa](https://pi0.io/) creator of Nitro, h3, and unJS.<br/>
