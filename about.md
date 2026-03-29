@@ -13,17 +13,17 @@ Please contact me below
 
 <ul class="share-buttons {{ page.icon_style }} mt-6">
   <li>
-    <a href="https://bsky.app/profile/perw8k.bsky.social" target="_blank">
+    <a href="https://bsky.app/profile/perw8k.bsky.social" target="_blank" aria-label="Visit my Bluesky profile">
       <i class="fa-brands fa-bluesky"></i>
     </a>
   </li>
   <li>
-    <a href="https://github.com/perwramdemark" target="_blank">
+    <a href="https://github.com/perwramdemark" target="_blank" aria-label="Visit my GitHub profile">
       <i class="fa-brands fa-github"></i>
     </a>
   </li>
   <li>
-    <a href="https://www.linkedin.com/in/perwramdemark" target="_blank">
+    <a href="https://www.linkedin.com/in/perwramdemark" target="_blank" aria-label="Visit my LinkedIn profile">
       <i class="fa-brands fa-linkedin"></i>
     </a>
   </li>
