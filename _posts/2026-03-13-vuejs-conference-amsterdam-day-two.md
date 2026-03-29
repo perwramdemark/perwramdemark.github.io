@@ -24,7 +24,7 @@ Evan's talk was truly intensive with a lot of releases and new stuff to cover.
 With 7 years of Vue.js at scale, Dragan brought insights on maintaining large-scale Vue applications, emphasizing architectural patterns and team coordination strategies.
 
 * [Tim Benniks](https://timbenniks.dev/).<br/>
-Explored performance optimization strategies, drawing parallels to "Need for Speed Rivals" — the importance of consistent, predictable performance in modern applications.
+Explored performance optimization strategies, drawing parallels to "Need for Speed Rivals". The key insight was the importance of consistent, predictable performance in modern applications.
 Presentation-wise, he delivered the A-game but maybe not too many takeaways.
 
 ### ♿ Accessibility: A Core Design Principle
