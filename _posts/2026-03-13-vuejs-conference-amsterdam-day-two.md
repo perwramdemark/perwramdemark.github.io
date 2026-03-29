@@ -16,7 +16,7 @@ Here are the standout insights from day two.
 ### 🚀 The Future of Vue Tooling & Build Performance
 
 * [Evan You](https://twitter.com/youyuxi) Creator of Vue.<br/>
-Speaking on **Improving Vue Language Tools** and the state of the ecosystem, Evan highlighted the launch of **Vite 8** with significant performance gains. Notably, **Rolldown** (the Rust-based bundler replacement) delivers 5-30% faster build times—a game changer for larger projects.
+Speaking on **Improving Vue Language Tools** and the state of the ecosystem, Evan highlighted the launch of **Vite 8** with significant performance gains. Notably, **Rolldown** (the Rust-based bundler replacement) delivers 5-30% faster build times. Game changer for larger projects.
 <br/>He also introduced [**VitePlus**](https://viteplus.dev/), positioning Vue's toolchain as a truly unified solution for modern web development. One tool to rule them all!<br/>
 Evan's talk was truly intensive with a lot of releases and new stuff to cover.
 
@@ -30,12 +30,13 @@ Presentation-wise, he delivered the A-game but maybe not too many takeaways.
 ### ♿ Accessibility: A Core Design Principle
 
 * [Julian Burr](https://bsky.app/profile/julianburr.de).<br/>
-Focused on **A11Y (Accessibility) as a gateway to Usability**. Julian emphasized Dan Norman's classic "The Design of Everyday Things," arguing that accessibility isn't a feature—it's fundamental to great design. When you build for accessibility, you build for everyone.
+Focused on **A11Y (Accessibility) as a gateway to Usability**. Julian emphasized Dan Norman's classic "The Design of Everyday Things," arguing that accessibility isn't a feature. Fundamental to great design. When you build for accessibility, you build for everyone.
 <br/>I've added the book to my Reading List.
+
 ### 🏗️ Learning from Real-World Experience
 
 * [Louella Creemers](https://louella.dev/), Microsoft MVP.<br/>
-Shared **"One Year of Vue.js Mistakes"**—a candid look at common pitfalls and lessons learned. Her insights bridged the gap between theory and practical development challenges.
+Shared **"One Year of Vue.js Mistakes"** a look at common pitfalls and lessons learned. Her insights bridged the gap between theory and practical development challenges.
 
 ### 📱 Local-First Architecture: The New Paradigm
 
@@ -52,7 +53,7 @@ Really enjoyed this talk from this great humble guy and it was his first visit i
 ### 🎨 Graphics & Web Interoperability
 
 * [Ramona Schwering](https://www.ramona.codes/).<br/>
-Presented **"Let's Draw Security"**—bringing attention to security considerations in visual design and component implementation. Her whole presentation she drew with a pencil and gave a great visual representation of the domain and problem to solve.
+Presented **"Let's Draw Security"** bringing attention to security considerations. Her whole presentation she drew with a pencil and gave a great visual representation of the domain and problem to solve.
 
 * [Jakob Schröter and Helian Riviera](https://github.com/jschroeter).<br/>
 Showcased **PixiJS** integration with Vue.js, demonstrating how to port a huge legacy app in an agile manner to a future proof Vue.js application  and describing a lot of hurdles they had to overcome.
