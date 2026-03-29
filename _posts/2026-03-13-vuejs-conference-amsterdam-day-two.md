@@ -8,19 +8,25 @@ tags: [vue, javascript, conference, local-first, a11y, performance]
 Day two at [Vuejs.amsterdam](https://vuejs.amsterdam/) continued the momentum with an equally impressive lineup of speakers diving into tooling evolution, accessibility, scaling experiences, and innovative architectural patterns.
 Here are the standout insights from day two.
 
+<div style="display: flex; gap: 10px;">
+  <img src="/assets/images/20260313-vue-talk-ewan-you.jpeg" style="width: 48%; height: auto;">
+  <img src="/assets/images/20260313-ewan-you-talk-viteplus.jpeg" style="width: 48%; height: auto;">
+</div>
+
 ### 🚀 The Future of Vue Tooling & Build Performance
 
 * [Evan You](https://twitter.com/youyuxi) Creator of Vue.<br/>
 Speaking on **Improving Vue Language Tools** and the state of the ecosystem, Evan highlighted the launch of **Vite 8** with significant performance gains. Notably, **Rolldown** (the Rust-based bundler replacement) delivers 5-30% faster build times—a game changer for larger projects.
 <br/>He also introduced [**VitePlus**](https://viteplus.dev/), positioning Vue's toolchain as a truly unified solution for modern web development. One tool to rule them all!<br/>
-Evan's talk was truly intensive with a lot of releases and new stuff to cover
+Evan's talk was truly intensive with a lot of releases and new stuff to cover.
 
-* [Dragan Elijas](https://draganelijas.com/).<br/>
+* [Dragan Elijas](https://www.linkedin.com/in/draganelijas).<br/>
 With 7 years of Vue.js at scale, Dragan brought insights on maintaining large-scale Vue applications, emphasizing architectural patterns and team coordination strategies.
 
 * [Tim Benniks](https://timbenniks.dev/).<br/>
 Explored performance optimization strategies, drawing parallels to "Need for Speed Rivals" — the importance of consistent, predictable performance in modern applications.
 Presentation-wise, he delivered the A-game but maybe not too many takeaways.
+
 ### ♿ Accessibility: A Core Design Principle
 
 * [Julian Burr](https://bsky.app/profile/julianburr.de).<br/>
