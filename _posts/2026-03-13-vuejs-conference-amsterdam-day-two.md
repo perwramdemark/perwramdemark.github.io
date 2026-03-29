@@ -11,38 +11,42 @@ Here are the standout insights from day two.
 ### 🚀 The Future of Vue Tooling & Build Performance
 
 * [Evan You](https://twitter.com/youyuxi) Creator of Vue.<br/>
-Speaking on **Improving Vue Language Tools** and the state of the ecosystem, Evan highlighted the launch of **Vite 8** with significant performance gains. Notably, **Rolldown** (the Rust-based bundler replacement) delivers 5-30% faster build times—a game changer for larger projects. He also introduced **VitePlus** and **oxlint**, positioning Vue's toolchain as a truly unified solution for modern web development.
+Speaking on **Improving Vue Language Tools** and the state of the ecosystem, Evan highlighted the launch of **Vite 8** with significant performance gains. Notably, **Rolldown** (the Rust-based bundler replacement) delivers 5-30% faster build times—a game changer for larger projects.
+<br/>He also introduced [**VitePlus**](https://viteplus.dev/), positioning Vue's toolchain as a truly unified solution for modern web development. One tool to rule them all!<br/>
+Evan's talk was truly intensive with a lot of releases and new stuff to cover
 
-* [Dragan Elijas](https://www.linkedin.com/in/draganaelijas/).<br/>
-With 7 years of Vue.js at scale, Dragan brought battle-tested insights on maintaining large-scale Vue applications, emphasizing architectural patterns and team coordination strategies.
+* [Dragan Elijas](https://draganelijas.com/).<br/>
+With 7 years of Vue.js at scale, Dragan brought insights on maintaining large-scale Vue applications, emphasizing architectural patterns and team coordination strategies.
 
-* [Tim Benniks](https://www.linkedin.com/in/timbenniks/).<br/>
+* [Tim Benniks](https://timbenniks.dev/).<br/>
 Explored performance optimization strategies, drawing parallels to "Need for Speed Rivals" — the importance of consistent, predictable performance in modern applications.
-
+Presentation-wise, he delivered the A-game but maybe not too many takeaways.
 ### ♿ Accessibility: A Core Design Principle
 
-* [Julian Barr](https://www.linkedin.com/in/julian-barr/).<br/>
+* [Julian Burr](https://bsky.app/profile/julianburr.de).<br/>
 Focused on **A11Y (Accessibility) as a gateway to Usability**. Julian emphasized Dan Norman's classic "The Design of Everyday Things," arguing that accessibility isn't a feature—it's fundamental to great design. When you build for accessibility, you build for everyone.
-
+<br/>I've added the book to my Reading List.
 ### 🏗️ Learning from Real-World Experience
 
-* [Louella Creemers](https://www.linkedin.com/in/louellacreemers/), Microsoft MVP.<br/>
+* [Louella Creemers](https://louella.dev/), Microsoft MVP.<br/>
 Shared **"One Year of Vue.js Mistakes"**—a candid look at common pitfalls and lessons learned. Her insights bridged the gap between theory and practical development challenges.
 
 ### 📱 Local-First Architecture: The New Paradigm
 
 * [Alexander Opalic](https://alexop.dev/).<br/>
 Introduced the concept of **Local-First Software** (based on the influential 2019 paper by Ink & Switch). Alexander explained how modern applications can prioritize offline-first capabilities using **IndexedDB or SQLite** as local data stores, with synchronization strategies like **LWW (Last Write Wins)** ensuring consistency. This shift enables better user experience, privacy, and resilience.
+He also made a great pitch for the [Local First Conf 2026](https://www.localfirstconf.com/) in July, Berlin. Would be great to visit!
 
 ### 🎯 Bundle Analysis & Tree-Shaking Pitfalls
 
 * [Serko Vincent Ngai](https://serko.dev/), based in Hong Kong.<br/>
 Tackled a critical but often overlooked issue: **When Tree-Shaking Fails**. Serko explained how side effects in dependencies (like `z.objects()`) can prevent proper tree-shaking, inflating bundle sizes. He recommended tools like **vite-bundle-analyzer** to visualize and debug these issues before they hit production.
+Really enjoyed this talk from this great humble guy and it was his first visit in Europe.
 
 ### 🎨 Graphics & Web Interoperability
 
-* [Ramona Schwering](https://www.linkedin.com/in/ramona-schwering/).<br/>
-Presented **"Let's Draw Security"**—bringing attention to security considerations in visual design and component implementation.
+* [Ramona Schwering](https://www.ramona.codes/).<br/>
+Presented **"Let's Draw Security"**—bringing attention to security considerations in visual design and component implementation. Her whole presentation she drew with a pencil and gave a great visual representation of the domain and problem to solve.
 
-* [Jakob Schröter and Helian Riviera](https://www.linkedin.com/in/jakob-schr%C3%B6ter/).<br/>
-Showcased **PixiJS** integration with Vue.js, demonstrating how to port desktop graphics libraries to the web. Their session highlighted the power of Vue as a framework for diverse application types, from traditional web apps to graphics-heavy experiences.
+* [Jakob Schröter and Helian Riviera](https://github.com/jschroeter).<br/>
+Showcased **PixiJS** integration with Vue.js, demonstrating how to port a huge legacy app in an agile manner to a future proof Vue.js application  and describing a lot of hurdles they had to overcome.
